@@ -1,0 +1,13 @@
+# godot
+export.cfg
+export_presets.cfg
+.tmp
+
+# Godot 4+ specific ignores
+.godot/
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# for gdUnit4
+reports/
