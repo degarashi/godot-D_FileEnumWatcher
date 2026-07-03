@@ -22,9 +22,9 @@ extends RefCounted
 signal entries_changed(entries: Array[FEWEntry])
 
 # ------------- [Constants] -------------
-const FEWFileWatcherClass := preload("res://addons/godot-D_FileEnumWatch/core/few_file_watcher.gd")
-const FEWEntryClass := preload("res://addons/godot-D_FileEnumWatch/core/few_entry.gd")
-const FEWEnumCodegenClass := preload("res://addons/godot-D_FileEnumWatch/core/few_enum_codegen.gd")
+const FEWFileWatcherClass := preload("uid://2u0usajy085y")
+const FEWEntryClass := preload("uid://bkqik1srrgu0d")
+const FEWEnumCodegenClass := preload("uid://do3v65ttpuujb")
 
 # ------------- [Private Variable] -------------
 var _extensions: Array[String] = [".tscn"]
