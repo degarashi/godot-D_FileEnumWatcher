@@ -20,7 +20,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-D_FileEnumWatch/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-D_FileEnumWatch/plugin.cfg", "res://addons/gdUnit4/plugin.cfg")
 
 [physics]
 
