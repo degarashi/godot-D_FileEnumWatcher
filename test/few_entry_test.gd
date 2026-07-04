@@ -2,7 +2,7 @@
 class_name FEWEntryTest
 extends GdUnitTestSuite
 
-const FEWEntryClass := preload("res://addons/godot-D_FileEnumWatch/core/few_entry.gd")
+const FEWEntryClass := preload("uid://bkqik1srrgu0d")
 
 
 func test_entry_properties() -> void:
@@ -17,7 +17,7 @@ func test_entry_properties() -> void:
 
 
 func test_from_path_valid() -> void:
-	var path := "res://addons/godot-D_FileEnumWatch/core/few_entry.gd"
+	var path := "res://addons/godot-D_FileEnumWatcher/core/few_entry.gd"
 	var entry := FEWEntryClass.from_path(path, "FEW_ENTRY")
 	assert_that(entry).is_not_null()
 	assert_that(entry.path).is_equal(path)

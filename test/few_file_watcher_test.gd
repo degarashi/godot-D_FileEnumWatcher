@@ -2,7 +2,7 @@
 class_name FEWFileWatcherTest
 extends GdUnitTestSuite
 
-const FEWFileWatcherClass := preload("res://addons/godot-D_FileEnumWatch/core/few_file_watcher.gd")
+const FEWFileWatcherClass := preload("uid://2u0usajy085y")
 var _test_files: Array[String] = []
 
 

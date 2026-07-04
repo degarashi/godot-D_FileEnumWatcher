@@ -2,9 +2,7 @@
 class_name FileEnumWatcherTest
 extends GdUnitTestSuite
 
-const FileEnumWatcherClass := preload(
-	"res://addons/godot-D_FileEnumWatch/core/file_enum_watcher.gd"
-)
+const FileEnumWatcherClass := preload("uid://dwmr62sf1ulhw")
 
 
 func test_extensions() -> void:
@@ -21,8 +19,8 @@ func test_include_paths_management() -> void:
 	var watcher := FileEnumWatcherClass.new()
 	watcher.set_extensions([".gd"])
 
-	var path1 := "res://addons/godot-D_FileEnumWatch/core/few_entry.gd"
-	var path2 := "res://addons/godot-D_FileEnumWatch/core/"
+	var path1 := "res://addons/godot-D_FileEnumWatcher/core/few_entry.gd"
+	var path2 := "res://addons/godot-D_FileEnumWatcher/core/"
 
 	# Add first path (specific file)
 	var added1 := watcher.add_include_path(path1)

@@ -2,8 +2,8 @@
 class_name FEWEnumCodegenTest
 extends GdUnitTestSuite
 
-const FEWEnumCodegenClass := preload("res://addons/godot-D_FileEnumWatch/core/few_enum_codegen.gd")
-const FEWEntryClass := preload("res://addons/godot-D_FileEnumWatch/core/few_entry.gd")
+const FEWEnumCodegenClass := preload("uid://do3v65ttpuujb")
+const FEWEntryClass := preload("uid://bkqik1srrgu0d")
 
 
 func test_sanitize_key() -> void:
