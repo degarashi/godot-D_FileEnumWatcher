@@ -14,9 +14,9 @@ Godot 4 エディタプラグイン。ファイルシステムを監視し、設
 
 ## インストール
 
-1. `addons/godot-D_FileEnumWatch/` ディレクトリをプロジェクトの `addons/` にコピーします。
+1. `addons/godot-D_FileEnumWatcher/` ディレクトリをプロジェクトの `addons/` にコピーします。
 2. **プロジェクト → プロジェクト設定 → プラグイン** でプラグインを有効にします（将来プラグインスクリプトが追加された場合）。
-3. _(推奨)_ `project.godot` の `editor_plugins/` に `res://addons/godot-D_FileEnumWatch/core/` を追加すると、`FileEnumWatcher`、`FEWEntry`、`FEWEnumCodegen`、`FEWFileWatcher` がエディタで利用可能になります。
+3. _(推奨)_ `project.godot` の `editor_plugins/` に `res://addons/godot-D_FileEnumWatcher/core/` を追加すると、`FileEnumWatcher`、`FEWEntry`、`FEWEnumCodegen`、`FEWFileWatcher` がエディタで利用可能になります。
 
 > **注意:** 現在このアドオンは GUI を持つ本格的なエディタプラグインではなく、再利用可能なスクリプトライブラリとして動作します。独自のツールスクリプトでクラスをインスタンス化して使用します。
 

@@ -14,9 +14,9 @@ Each entry is tracked by its Godot ResourceUID, making it resilient to file rena
 
 ## Installation
 
-1. Copy the `addons/godot-D_FileEnumWatch/` directory into your project's `addons/` folder.
+1. Copy the `addons/godot-D_FileEnumWatcher/` directory into your project's `addons/` folder.
 2. Enable the plugin in **Project → Project Settings → Plugins** (if a plugin script is added in the future).
-3. _(Optional but recommended)_ Add `res://addons/godot-D_FileEnumWatch/core/` to your project's `project.godot` under `editor_plugins/` so the autoload-aware classes (`FileEnumWatcher`, `FEWEntry`, `FEWEnumCodegen`, `FEWFileWatcher`) are available in the editor.
+3. _(Optional but recommended)_ Add `res://addons/godot-D_FileEnumWatcher/core/` to your project's `project.godot` under `editor_plugins/` so the autoload-aware classes (`FileEnumWatcher`, `FEWEntry`, `FEWEnumCodegen`, `FEWFileWatcher`) are available in the editor.
 
 > **Note:** At present this addon ships as a reusable script library rather than a full editor plugin with a GUI. You use it by instantiating the classes in your own tool scripts.
 
