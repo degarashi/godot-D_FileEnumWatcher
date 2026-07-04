@@ -1,4 +1,4 @@
-# godot-FileEnumWatcher
+# godot-D_FileEnumWatcher
 
 A Godot 4 editor plugin that watches the filesystem for resource files matching configured extensions, maintains a deduplicated list of entries, and generates GDScript enum code from them.
 

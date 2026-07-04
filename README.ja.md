@@ -1,4 +1,4 @@
-# godot-FileEnumWatcher
+# godot-D_FileEnumWatcher
 
 Godot 4 エディタプラグイン。ファイルシステムを監視し、設定された拡張子にマッチするリソースファイルを検出、重複のないエントリ一覧を管理し、そこから GDScript の enum コードを自動生成します。
 
