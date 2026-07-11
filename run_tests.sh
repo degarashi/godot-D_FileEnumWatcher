@@ -14,4 +14,4 @@ fi
 echo "Using Godot binary: ${GODOT_BIN}"
 
 # Run gdUnit4 tests
-./addons/gdUnit4/runtest.sh --godot_binary "${GODOT_BIN}" -a test/ --ignoreHeadlessMode "$@"
+./addons/gdUnit4/runtest.sh --godot_binary "${GODOT_BIN}" -a tests/ --ignoreHeadlessMode "$@"
